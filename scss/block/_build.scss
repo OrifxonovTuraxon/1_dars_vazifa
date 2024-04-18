@@ -1,0 +1,49 @@
+.build{
+    padding-bottom: 55px;
+    }
+    .build_container{
+        width: 1182px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 82px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .build_block{
+        width: 632px;
+    }
+    .build_title{
+        width: 436px;
+        font-weight: 900;
+    font-size: 56px;
+    color: #2f2f2f;
+    margin-bottom: 15px;
+    }
+    span{
+        color: #717CFF;
+    }
+    .build_text{
+        width: 602px;
+        font-weight: 500;
+    font-size: 22px;
+    line-height: 173%;
+    color: #7d7d7d;
+    margin-bottom: 42px;
+    }
+    .build_link{
+        font-weight: 500;
+    font-size: 22px;
+    line-height: 182%;
+    color: white;
+    border-radius: 11px;
+    width: 191px;
+    height: 64px;
+    background-color: #717CFF;
+    width: 191px;
+    height: 64px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    }

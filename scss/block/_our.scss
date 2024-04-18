@@ -1,0 +1,132 @@
+.our {
+    padding-bottom: 126px;
+    padding-top: 122px;
+
+}
+
+.our_container {
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our_title {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 146%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.our_text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 173%;
+    text-align: center;
+    color: #7d7d7d;
+    margin-bottom: 110px;
+}
+
+.our_list {
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    flex-wrap: wrap;
+}
+
+.our_item {
+    width: 344px;
+    margin-top: 30px;
+    margin-bottom: 29px;
+
+    &:nth-child(1):before {
+        content: "";
+        width: 76px;
+        height: 76px;
+        background-image: url(../../img/uor_before1.svg);
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    &:nth-child(2):before {
+        content: "";
+        width: 76px;
+        height: 76px;
+        background-image: url(../../img/uor_before2.svg);
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        display: block;
+
+    }
+    &:nth-child(3):before {
+        content: "";
+        width: 76px;
+        height: 76px;
+        background-image: url(../../img/uor_before3.svg);
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        display: block;
+
+}
+&:nth-child(4):before {
+    content: "";
+    width: 76px;
+    height: 76px;
+    background-image: url(../../img/uor_before4.svg);
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    display: block;
+
+}
+&:nth-child(5):before {
+    content: "";
+    width: 76px;
+    height: 76px;
+    background-image: url(../../img/uor_before5.svg);
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    display: block;
+
+}
+}
+
+.our_item_title {
+    width: 300px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 154%;
+    color: #37474f;
+    margin-bottom: 9px;
+    text-align: start;
+
+
+
+}
+
+.our_item_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.03em;
+    color: rgba(55, 71, 79, 0.72);
+    margin-bottom: 24px;
+}
+.uor_link{
+    font-weight: 700;
+font-size: 17px;
+letter-spacing: 0.03em;
+&::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url(../../img/link_before.svg);
+    position: relative;
+    top: 6px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+}
+}
